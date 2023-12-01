@@ -1,6 +1,6 @@
 const fs = require('fs')
 const readline = require('readline')
-const filePath = './puzzle1input.txt'
+const filePath = './puzzleinput.txt'
 const readStream = fs.createReadStream(filePath, 'utf8')
 let total = 0;
 
